@@ -30,7 +30,5 @@ function loadContact() {
     main.appendChild(generateContact())
 }
 
-
 loadHome()
-
 export { loadHome, loadMenu, loadContact }
