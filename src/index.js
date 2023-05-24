@@ -1,5 +1,6 @@
-import generateHome from "./home";
 import generateNav from "./nav";
+import generateHome from "./home";
+import generateContact from "./contact";
 
 // generates nav bar and appends to content container
 const container = document.getElementById('content')
@@ -12,6 +13,7 @@ container.appendChild(main)
 
 
 function loadHome(btn) {
+    main.textContent = ""
     generateHome().forEach(element => {
         main.appendChild(element) 
     });
@@ -23,6 +25,7 @@ function loadMenu() {
 
 function loadContact() {
     main.textContent = ""
+    main.appendChild(generateContact())
 }
 
 

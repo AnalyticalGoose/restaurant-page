@@ -74,3 +74,14 @@ footer {
     justify-content: center;
     margin-top: auto;
 }
+
+.contact-container {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+    gap: 5vh;
+}
