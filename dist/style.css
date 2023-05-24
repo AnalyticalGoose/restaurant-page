@@ -85,3 +85,25 @@ footer {
     font-size: 2rem;
     gap: 5vh;
 }
+
+.menu-container {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 15vh);
+    align-items: center;
+
+    color: white;
+    font-size: 2.5rem;
+
+    margin-top: 5vh;
+}
+
+.menu-container > img {
+    scale: .5;
+    justify-self: end;
+}
+
+.menu-container > div {
+    padding-left: 3vw;
+}

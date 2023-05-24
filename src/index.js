@@ -1,6 +1,7 @@
 import generateNav from "./nav";
 import generateHome from "./home";
 import generateContact from "./contact";
+import generateMenu from "./menu";
 
 // generates nav bar and appends to content container
 const container = document.getElementById('content')
@@ -21,6 +22,7 @@ function loadHome(btn) {
 
 function loadMenu() {
     main.textContent = ""
+    main.appendChild(generateMenu())
 }
 
 function loadContact() {
